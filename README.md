@@ -1,24 +1,21 @@
-# README
+# Destination Planner
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple app with CRUD interface for destinations.
 
-Things you may want to cover:
+### Versions
 
-* Ruby version
+Rails 7.0.8
 
-* System dependencies
+Ruby 3.2.2
 
-* Configuration
+## Setup
 
-* Database creation
+To set up:
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+git clone git@github.com:turingschool-examples/destination-planner-7.git
+cd destination-planner-7
+bundle install
+rails db:{create,migrate,seed}
+rails server
+```
