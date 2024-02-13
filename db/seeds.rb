@@ -13,10 +13,12 @@ class Seed
   end
 
   def generate_destinations
+    # random list of valid zips until faker data is fixed
+    zips = %w[38016 70115 12203 30014 49418 11731 44133 48348 44646 15068 33801 08302 11432 43123 40165 33756 37013 32068 59901 02474 00926 11368 60629 79936 90011 90650 91331 99950 43204 43938 43952 10036]
     50.times do |i|
       dest = Destination.create!(
         name: Faker::Address.city,
-        zip: Faker::Address.zip,
+        zip: zips.sample,
         description: Faker::Lorem.sentence,
         image_url: Faker::Placeholdit.image
       )
