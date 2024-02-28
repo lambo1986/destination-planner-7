@@ -58,11 +58,13 @@ end
 
 gem "faker"
 
-group :test do 
+group :test do
   gem "rspec-rails"
   gem "capybara"
   gem "launchy"
   gem "simplecov"
+  gem "webmock"
+  gem "vcr"
 end
 
 group :development do
@@ -75,4 +77,3 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
-
