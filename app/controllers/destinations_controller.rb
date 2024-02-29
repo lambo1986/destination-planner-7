@@ -6,6 +6,8 @@ class DestinationsController < ApplicationController
   end
 
   def show
+    @destination = Destination.find(params[:id])
+    require 'pry'; binding.pry
   end
 
   def new
