@@ -82,4 +82,414 @@ http_interactions:
       string: !binary |-
         W3sibmFtZSI6Ik5ldyBPcmxlYW5zIiwibG9jYWxfbmFtZXMiOnsiamEiOiLjg4vjg6Xjg7zjgqrjg7zjg6rjg7PjgroiLCJ2aSI6Ik5n4buNYyBMw6JuIiwicnUiOiLQndC+0LLRi9C5INCe0YDQu9C10LDQvSIsImJyIjoiT3JsZWHDsXMgTmV2ZXoiLCJrbyI6IuuJtOyYrOumrOyWuOyKpCIsInpoIjoi5paw5aWl5bCU6ImvL+e0kOWlp+iJryIsInNyIjoi0IrRgyDQntGA0LvQtdCw0L3RgSIsImZyIjoiTGEgTm91dmVsbGUtT3Jsw6lhbnMiLCJlbiI6Ik5ldyBPcmxlYW5zIiwiZXMiOiJOdWV2YSBPcmxlYW5zIiwiY2EiOiJOb3ZhIE9ybGVhbnMiLCJrbiI6IuCyueCziuCyuCDgspLgsrDgs43gsrLgs4Dgsqjgs43gsrjgs40iLCJvYyI6Ik7DsnZhIE9ybGVhbnMifSwibGF0IjoyOS45NzU5OTgzLCJsb24iOi05MC4wNzgyMTI3LCJjb3VudHJ5IjoiVVMiLCJzdGF0ZSI6IkxvdWlzaWFuYSJ9XQ==
   recorded_at: Thu, 29 Feb 2024 16:35:19 GMT
+- request:
+    method: get
+    uri: http://api.openweathermap.org/geo/1.0/direct?appid=weather&limit=1&q=New%20Orleans,70117
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Thu, 29 Feb 2024 16:55:16 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '448'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/geo/1.0/direct?limit=1&q=new+orleans%2c70117"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sibmFtZSI6Ik5ldyBPcmxlYW5zIiwibG9jYWxfbmFtZXMiOnsidmkiOiJOZ+G7jWMgTMOibiIsInJ1Ijoi0J3QvtCy0YvQuSDQntGA0LvQtdCw0L0iLCJiciI6Ik9ybGVhw7FzIE5ldmV6IiwiZW4iOiJOZXcgT3JsZWFucyIsImVzIjoiTnVldmEgT3JsZWFucyIsImNhIjoiTm92YSBPcmxlYW5zIiwiemgiOiLmlrDlpaXlsJToia8v57SQ5aWn6ImvIiwib2MiOiJOw7J2YSBPcmxlYW5zIiwia24iOiLgsrngs4rgsrgg4LKS4LKw4LON4LKy4LOA4LKo4LON4LK44LONIiwiZnIiOiJMYSBOb3V2ZWxsZS1PcmzDqWFucyIsImtvIjoi64m07Jis66as7Ja47IqkIiwiamEiOiLjg4vjg6Xjg7zjgqrjg7zjg6rjg7PjgroiLCJzciI6ItCK0YMg0J7RgNC70LXQsNC90YEifSwibGF0IjoyOS45NzU5OTgzLCJsb24iOi05MC4wNzgyMTI3LCJjb3VudHJ5IjoiVVMiLCJzdGF0ZSI6IkxvdWlzaWFuYSJ9XQ==
+  recorded_at: Thu, 29 Feb 2024 16:55:16 GMT
+- request:
+    method: get
+    uri: http://api.openweathermap.org/geo/1.0/direct?appid=weather&limit=1&q=New%20Orleans,70117
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Thu, 29 Feb 2024 16:56:55 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '448'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/geo/1.0/direct?limit=1&q=new+orleans%2c70117"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sibmFtZSI6Ik5ldyBPcmxlYW5zIiwibG9jYWxfbmFtZXMiOnsidmkiOiJOZ+G7jWMgTMOibiIsInJ1Ijoi0J3QvtCy0YvQuSDQntGA0LvQtdCw0L0iLCJiciI6Ik9ybGVhw7FzIE5ldmV6IiwiZW4iOiJOZXcgT3JsZWFucyIsImVzIjoiTnVldmEgT3JsZWFucyIsImNhIjoiTm92YSBPcmxlYW5zIiwiemgiOiLmlrDlpaXlsJToia8v57SQ5aWn6ImvIiwib2MiOiJOw7J2YSBPcmxlYW5zIiwia24iOiLgsrngs4rgsrgg4LKS4LKw4LON4LKy4LOA4LKo4LON4LK44LONIiwiZnIiOiJMYSBOb3V2ZWxsZS1PcmzDqWFucyIsImtvIjoi64m07Jis66as7Ja47IqkIiwiamEiOiLjg4vjg6Xjg7zjgqrjg7zjg6rjg7PjgroiLCJzciI6ItCK0YMg0J7RgNC70LXQsNC90YEifSwibGF0IjoyOS45NzU5OTgzLCJsb24iOi05MC4wNzgyMTI3LCJjb3VudHJ5IjoiVVMiLCJzdGF0ZSI6IkxvdWlzaWFuYSJ9XQ==
+  recorded_at: Thu, 29 Feb 2024 16:56:55 GMT
+- request:
+    method: get
+    uri: http://api.openweathermap.org/geo/1.0/direct?appid=weather&limit=1&q=New%20Orleans,70117
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Thu, 29 Feb 2024 16:59:42 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '448'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/geo/1.0/direct?limit=1&q=new+orleans%2c70117"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sibmFtZSI6Ik5ldyBPcmxlYW5zIiwibG9jYWxfbmFtZXMiOnsidmkiOiJOZ+G7jWMgTMOibiIsInJ1Ijoi0J3QvtCy0YvQuSDQntGA0LvQtdCw0L0iLCJiciI6Ik9ybGVhw7FzIE5ldmV6IiwiZW4iOiJOZXcgT3JsZWFucyIsImVzIjoiTnVldmEgT3JsZWFucyIsImNhIjoiTm92YSBPcmxlYW5zIiwiemgiOiLmlrDlpaXlsJToia8v57SQ5aWn6ImvIiwib2MiOiJOw7J2YSBPcmxlYW5zIiwia24iOiLgsrngs4rgsrgg4LKS4LKw4LON4LKy4LOA4LKo4LON4LK44LONIiwiZnIiOiJMYSBOb3V2ZWxsZS1PcmzDqWFucyIsImtvIjoi64m07Jis66as7Ja47IqkIiwiamEiOiLjg4vjg6Xjg7zjgqrjg7zjg6rjg7PjgroiLCJzciI6ItCK0YMg0J7RgNC70LXQsNC90YEifSwibGF0IjoyOS45NzU5OTgzLCJsb24iOi05MC4wNzgyMTI3LCJjb3VudHJ5IjoiVVMiLCJzdGF0ZSI6IkxvdWlzaWFuYSJ9XQ==
+  recorded_at: Thu, 29 Feb 2024 16:59:42 GMT
+- request:
+    method: get
+    uri: http://api.openweathermap.org/geo/1.0/direct?appid=weather&limit=1&q=New%20Orleans,70117
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Thu, 29 Feb 2024 17:00:28 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '448'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/geo/1.0/direct?limit=1&q=new+orleans%2c70117"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sibmFtZSI6Ik5ldyBPcmxlYW5zIiwibG9jYWxfbmFtZXMiOnsiemgiOiLmlrDlpaXlsJToia8v57SQ5aWn6ImvIiwiYnIiOiJPcmxlYcOxcyBOZXZleiIsImtvIjoi64m07Jis66as7Ja47IqkIiwia24iOiLgsrngs4rgsrgg4LKS4LKw4LON4LKy4LOA4LKo4LON4LK44LONIiwic3IiOiLQitGDINCe0YDQu9C10LDQvdGBIiwicnUiOiLQndC+0LLRi9C5INCe0YDQu9C10LDQvSIsImVzIjoiTnVldmEgT3JsZWFucyIsImphIjoi44OL44Ol44O844Kq44O844Oq44Oz44K6Iiwib2MiOiJOw7J2YSBPcmxlYW5zIiwiZnIiOiJMYSBOb3V2ZWxsZS1PcmzDqWFucyIsImVuIjoiTmV3IE9ybGVhbnMiLCJjYSI6Ik5vdmEgT3JsZWFucyIsInZpIjoiTmfhu41jIEzDom4ifSwibGF0IjoyOS45NzU5OTgzLCJsb24iOi05MC4wNzgyMTI3LCJjb3VudHJ5IjoiVVMiLCJzdGF0ZSI6IkxvdWlzaWFuYSJ9XQ==
+  recorded_at: Thu, 29 Feb 2024 17:00:28 GMT
+- request:
+    method: get
+    uri: http://api.openweathermap.org/geo/1.0/direct?appid=weather&limit=1&q=New%20Orleans,70117
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Thu, 29 Feb 2024 17:01:16 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '448'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/geo/1.0/direct?limit=1&q=new+orleans%2c70117"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sibmFtZSI6Ik5ldyBPcmxlYW5zIiwibG9jYWxfbmFtZXMiOnsib2MiOiJOw7J2YSBPcmxlYW5zIiwicnUiOiLQndC+0LLRi9C5INCe0YDQu9C10LDQvSIsImJyIjoiT3JsZWHDsXMgTmV2ZXoiLCJ2aSI6Ik5n4buNYyBMw6JuIiwic3IiOiLQitGDINCe0YDQu9C10LDQvdGBIiwiemgiOiLmlrDlpaXlsJToia8v57SQ5aWn6ImvIiwiamEiOiLjg4vjg6Xjg7zjgqrjg7zjg6rjg7PjgroiLCJmciI6IkxhIE5vdXZlbGxlLU9ybMOpYW5zIiwia28iOiLribTsmKzrpqzslrjsiqQiLCJrbiI6IuCyueCziuCyuCDgspLgsrDgs43gsrLgs4Dgsqjgs43gsrjgs40iLCJlbiI6Ik5ldyBPcmxlYW5zIiwiZXMiOiJOdWV2YSBPcmxlYW5zIiwiY2EiOiJOb3ZhIE9ybGVhbnMifSwibGF0IjoyOS45NzU5OTgzLCJsb24iOi05MC4wNzgyMTI3LCJjb3VudHJ5IjoiVVMiLCJzdGF0ZSI6IkxvdWlzaWFuYSJ9XQ==
+  recorded_at: Thu, 29 Feb 2024 17:01:16 GMT
+- request:
+    method: get
+    uri: http://api.openweathermap.org/geo/1.0/direct?appid=weather&limit=1&q=New%20Orleans,70117
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Thu, 29 Feb 2024 17:02:28 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '448'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/geo/1.0/direct?limit=1&q=new+orleans%2c70117"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sibmFtZSI6Ik5ldyBPcmxlYW5zIiwibG9jYWxfbmFtZXMiOnsib2MiOiJOw7J2YSBPcmxlYW5zIiwicnUiOiLQndC+0LLRi9C5INCe0YDQu9C10LDQvSIsImJyIjoiT3JsZWHDsXMgTmV2ZXoiLCJ2aSI6Ik5n4buNYyBMw6JuIiwic3IiOiLQitGDINCe0YDQu9C10LDQvdGBIiwiemgiOiLmlrDlpaXlsJToia8v57SQ5aWn6ImvIiwiamEiOiLjg4vjg6Xjg7zjgqrjg7zjg6rjg7PjgroiLCJmciI6IkxhIE5vdXZlbGxlLU9ybMOpYW5zIiwia28iOiLribTsmKzrpqzslrjsiqQiLCJrbiI6IuCyueCziuCyuCDgspLgsrDgs43gsrLgs4Dgsqjgs43gsrjgs40iLCJlbiI6Ik5ldyBPcmxlYW5zIiwiZXMiOiJOdWV2YSBPcmxlYW5zIiwiY2EiOiJOb3ZhIE9ybGVhbnMifSwibGF0IjoyOS45NzU5OTgzLCJsb24iOi05MC4wNzgyMTI3LCJjb3VudHJ5IjoiVVMiLCJzdGF0ZSI6IkxvdWlzaWFuYSJ9XQ==
+  recorded_at: Thu, 29 Feb 2024 17:02:28 GMT
+- request:
+    method: get
+    uri: http://api.openweathermap.org/geo/1.0/direct?appid=weather&limit=1&q=New%20Orleans,70117
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Thu, 29 Feb 2024 17:02:36 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '448'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/geo/1.0/direct?limit=1&q=new+orleans%2c70117"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sibmFtZSI6Ik5ldyBPcmxlYW5zIiwibG9jYWxfbmFtZXMiOnsib2MiOiJOw7J2YSBPcmxlYW5zIiwicnUiOiLQndC+0LLRi9C5INCe0YDQu9C10LDQvSIsImJyIjoiT3JsZWHDsXMgTmV2ZXoiLCJ2aSI6Ik5n4buNYyBMw6JuIiwic3IiOiLQitGDINCe0YDQu9C10LDQvdGBIiwiemgiOiLmlrDlpaXlsJToia8v57SQ5aWn6ImvIiwiamEiOiLjg4vjg6Xjg7zjgqrjg7zjg6rjg7PjgroiLCJmciI6IkxhIE5vdXZlbGxlLU9ybMOpYW5zIiwia28iOiLribTsmKzrpqzslrjsiqQiLCJrbiI6IuCyueCziuCyuCDgspLgsrDgs43gsrLgs4Dgsqjgs43gsrjgs40iLCJlbiI6Ik5ldyBPcmxlYW5zIiwiZXMiOiJOdWV2YSBPcmxlYW5zIiwiY2EiOiJOb3ZhIE9ybGVhbnMifSwibGF0IjoyOS45NzU5OTgzLCJsb24iOi05MC4wNzgyMTI3LCJjb3VudHJ5IjoiVVMiLCJzdGF0ZSI6IkxvdWlzaWFuYSJ9XQ==
+  recorded_at: Thu, 29 Feb 2024 17:02:35 GMT
+- request:
+    method: get
+    uri: http://api.openweathermap.org/geo/1.0/direct?appid=weather&limit=1&q=New%20Orleans,70117
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Thu, 29 Feb 2024 17:03:20 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '448'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/geo/1.0/direct?limit=1&q=new+orleans%2c70117"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sibmFtZSI6Ik5ldyBPcmxlYW5zIiwibG9jYWxfbmFtZXMiOnsidmkiOiJOZ+G7jWMgTMOibiIsInJ1Ijoi0J3QvtCy0YvQuSDQntGA0LvQtdCw0L0iLCJiciI6Ik9ybGVhw7FzIE5ldmV6IiwiZW4iOiJOZXcgT3JsZWFucyIsImVzIjoiTnVldmEgT3JsZWFucyIsImNhIjoiTm92YSBPcmxlYW5zIiwiemgiOiLmlrDlpaXlsJToia8v57SQ5aWn6ImvIiwib2MiOiJOw7J2YSBPcmxlYW5zIiwia24iOiLgsrngs4rgsrgg4LKS4LKw4LON4LKy4LOA4LKo4LON4LK44LONIiwiZnIiOiJMYSBOb3V2ZWxsZS1PcmzDqWFucyIsImtvIjoi64m07Jis66as7Ja47IqkIiwiamEiOiLjg4vjg6Xjg7zjgqrjg7zjg6rjg7PjgroiLCJzciI6ItCK0YMg0J7RgNC70LXQsNC90YEifSwibGF0IjoyOS45NzU5OTgzLCJsb24iOi05MC4wNzgyMTI3LCJjb3VudHJ5IjoiVVMiLCJzdGF0ZSI6IkxvdWlzaWFuYSJ9XQ==
+  recorded_at: Thu, 29 Feb 2024 17:03:20 GMT
+- request:
+    method: get
+    uri: http://api.openweathermap.org/geo/1.0/direct?appid=weather&limit=1&q=New%20Orleans,70117
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Thu, 29 Feb 2024 17:05:30 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '448'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/geo/1.0/direct?limit=1&q=new+orleans%2c70117"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sibmFtZSI6Ik5ldyBPcmxlYW5zIiwibG9jYWxfbmFtZXMiOnsicnUiOiLQndC+0LLRi9C5INCe0YDQu9C10LDQvSIsImJyIjoiT3JsZWHDsXMgTmV2ZXoiLCJlbiI6Ik5ldyBPcmxlYW5zIiwia24iOiLgsrngs4rgsrgg4LKS4LKw4LON4LKy4LOA4LKo4LON4LK44LONIiwidmkiOiJOZ+G7jWMgTMOibiIsInNyIjoi0IrRgyDQntGA0LvQtdCw0L3RgSIsImZyIjoiTGEgTm91dmVsbGUtT3Jsw6lhbnMiLCJjYSI6Ik5vdmEgT3JsZWFucyIsInpoIjoi5paw5aWl5bCU6ImvL+e0kOWlp+iJryIsIm9jIjoiTsOydmEgT3JsZWFucyIsImVzIjoiTnVldmEgT3JsZWFucyIsImtvIjoi64m07Jis66as7Ja47IqkIiwiamEiOiLjg4vjg6Xjg7zjgqrjg7zjg6rjg7PjgroifSwibGF0IjoyOS45NzU5OTgzLCJsb24iOi05MC4wNzgyMTI3LCJjb3VudHJ5IjoiVVMiLCJzdGF0ZSI6IkxvdWlzaWFuYSJ9XQ==
+  recorded_at: Thu, 29 Feb 2024 17:05:30 GMT
+- request:
+    method: get
+    uri: http://api.openweathermap.org/geo/1.0/direct?appid=weather&limit=1&q=New%20Orleans,70117
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Thu, 29 Feb 2024 17:06:34 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '448'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/geo/1.0/direct?limit=1&q=new+orleans%2c70117"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sibmFtZSI6Ik5ldyBPcmxlYW5zIiwibG9jYWxfbmFtZXMiOnsicnUiOiLQndC+0LLRi9C5INCe0YDQu9C10LDQvSIsImJyIjoiT3JsZWHDsXMgTmV2ZXoiLCJlbiI6Ik5ldyBPcmxlYW5zIiwia24iOiLgsrngs4rgsrgg4LKS4LKw4LON4LKy4LOA4LKo4LON4LK44LONIiwidmkiOiJOZ+G7jWMgTMOibiIsInNyIjoi0IrRgyDQntGA0LvQtdCw0L3RgSIsImZyIjoiTGEgTm91dmVsbGUtT3Jsw6lhbnMiLCJjYSI6Ik5vdmEgT3JsZWFucyIsInpoIjoi5paw5aWl5bCU6ImvL+e0kOWlp+iJryIsIm9jIjoiTsOydmEgT3JsZWFucyIsImVzIjoiTnVldmEgT3JsZWFucyIsImtvIjoi64m07Jis66as7Ja47IqkIiwiamEiOiLjg4vjg6Xjg7zjgqrjg7zjg6rjg7PjgroifSwibGF0IjoyOS45NzU5OTgzLCJsb24iOi05MC4wNzgyMTI3LCJjb3VudHJ5IjoiVVMiLCJzdGF0ZSI6IkxvdWlzaWFuYSJ9XQ==
+  recorded_at: Thu, 29 Feb 2024 17:06:34 GMT
 recorded_with: VCR 6.2.0

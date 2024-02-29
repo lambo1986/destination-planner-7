@@ -25,7 +25,7 @@ RSpec.describe "destinations show page", vcr: true, type: :feature do
     expect(page).to have_content("Forecast for #{@dest.name}:")
   end
 
-  it "shows weather info, like date, current, high and low temps, and a summary" do
+  it "shows weather info, like date, current, high and low temps, a summary and an image of the weather" do
     visit destination_path(@dest)
 
     expect(current_path).to eq(destination_path(@dest))

@@ -8,4 +8,13 @@ RSpec.describe WeatherFacade, vcr: true do
       expect(weather).to be_instance_of(Weather)
     end
   end
+
+  describe "#fetch_gif" do
+    it "makes a facade of the gif url from a summary" do
+      summary = "Mostly Cloudy"
+      gif = WeatherFacade.new.fetch_gif(summary)
+
+      expect(gif).to be_a(String)
+    end
+  end
 end

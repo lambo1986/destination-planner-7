@@ -18,4 +18,12 @@ RSpec.describe WeatherService, vcr: true, type: :service do
       expect(coords[:lon]).to be_a(Float)
     end
   end
+
+  describe "#weather_image_url" do
+    it "returns an image url based on weather summary" do
+      url = WeatherService.new.weather_image_url("Clear and Sunny")
+
+      expect(url).to be_a(String)
+    end
+  end
 end

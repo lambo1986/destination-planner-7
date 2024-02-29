@@ -8,6 +8,7 @@ class DestinationsController < ApplicationController
   def show
     @destination = Destination.find(params[:id])
     @weather = WeatherFacade.new.fetch_weather(@destination.name, @destination.zip)
+    @gif = WeatherFacade.new.fetch_gif(@weather.summary)
   end
 
   def new
