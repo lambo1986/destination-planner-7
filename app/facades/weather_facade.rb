@@ -5,6 +5,6 @@ class WeatherFacade
     response = service.get_weather_coords(city, zip)
     callback = service.get_weather(response[:lat], response[:lon])
     
-    weather = Weather.new(callback[:current])
+    weather = Weather.new(callback)
   end
 end
