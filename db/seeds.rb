@@ -10,6 +10,12 @@ class Seed
   def self.start
     seed = Seed.new
     seed.generate_destinations
+    dest1 = Destination.create!(
+        name: "New Orleans",
+        zip: 70115,
+        description: Faker::Lorem.sentence,
+        image_url: Faker::Placeholdit.image
+      )
   end
 
   def generate_destinations

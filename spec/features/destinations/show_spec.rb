@@ -36,5 +36,9 @@ RSpec.describe "destinations show page", vcr: true, type: :feature do
     expect(page).to have_content("High Temp:")
     expect(page).to have_content("Low Temp:")
     expect(page).to have_content("Weather Summary:")
+
+    image_url = "https://media3.giphy.com/media/MZZNseRhmEuXpABKys/giphy.gif?cid=aae34603jglnyy4sfqzss1e4e9ugdt40fqi9lfbs30xvqq1f&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+    
+    expect(page).to have_css("img[src*='#{image_url}']")
   end
 end

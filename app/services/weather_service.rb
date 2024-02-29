@@ -18,7 +18,7 @@ class WeatherService
 
   def weather_image_url(weather_info)
     data = get_url("#{@giphy_url}/search?api_key=#{@giphy_key}&q=#{weather_info}&limit=1")
-    data[:data].first[:url]
+    data[:data].first[:images][:original][:url]
   end
 
   private
