@@ -7,7 +7,7 @@ class DestinationsController < ApplicationController
 
   def show
     @destination = Destination.find(params[:id])
-    require 'pry'; binding.pry
+    @weather = WeatherFacade.new.fetch_weather(@destination.name, @destination.zip)
   end
 
   def new

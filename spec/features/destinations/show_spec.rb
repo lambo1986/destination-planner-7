@@ -3,7 +3,7 @@ require "rails_helper"
 RSpec.describe "destinations show page", vcr: true, type: :feature do
   before :each do
     @dest = Destination.create!(
-        name: Faker::Address.city,
+        name: "New Orleans",
         zip: 70115,
         description: Faker::Lorem.sentence,
         image_url: Faker::Placeholdit.image
